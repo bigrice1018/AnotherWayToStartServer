@@ -1,0 +1,292 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "awts:buttonbg.png",
+            "posX" : -38,
+            "posY" : 0,
+            "width" : 36,
+            "height" : 1000,
+            "alignment" : "top_right"
+        },
+		
+		 "subframe":
+        {
+            "image" : "awts:subframe.png",
+            "posX" : -88,
+            "posY" : 34,
+            "width" : 50,
+            "height" : 155,
+            "alignment" : "top_right"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+			"tooltip": "Singleplayer",
+            "posX" : -30,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+			"texture" : "awts:SinglePlayer.png",
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "",
+			"tooltip": "Mulitiplayer",
+            "posX" : -30,
+            "posY" : 70,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:MulitiPlayer.png",  
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+		
+		"options":
+        {
+            "text" : "",
+			"tooltip": "Options",
+            "posX" : -30,
+            "posY" : 100,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:options.png",  
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"expand":
+        {
+            "text" : "",
+			"tooltip": "More Information",
+            "posX" : -30,
+            "posY" : 130,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:folder.png",  
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.submenu"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+			"tooltip": "Quit",
+            "posX" : -30,
+            "posY" : 160,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:exit.png",  
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "language":
+        {
+            "text" : "",
+			"tooltip": "Languages",
+            "posX" : -83,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:language.png",  
+			"alignment" : "top_right",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+		"bugreport":
+        {
+            "text" : "",
+			"tooltip": "Bug Report",
+            "posX" : -83,
+            "posY" : 70,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:bug.png",  
+			"alignment" : "top_right",
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://goo.gl/forms/HtR5Qz8atL"
+            }
+        },
+		
+		"conversation":
+        {
+            "text" : "",
+			"tooltip": "Suggestion",
+            "posX" : -83,
+            "posY" : 100,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:conversation.png",  
+			"alignment" : "top_right",
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://goo.gl/forms/oRi0PRuP8I"
+            }
+        },
+		
+		"blog":
+        {
+            "text" : "",
+			"tooltip": "Our Website",
+            "posX" : -83,
+            "posY" : 130,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:blog.png",  
+			"alignment" : "top_right",
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://bigrice.twbbs.org/modpack"
+            }
+        },
+		
+		"channel":
+        {
+            "text" : "",
+			"tooltip": "Dev's Twitter",
+            "posX" : -83,
+            "posY" : 160,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "800",
+			"imageHeight": "800",
+            "texture" : "awts:twitter.png",  
+			"alignment" : "top_right",
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : ""
+            }
+        }
+		
+		/*
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+		*/
+    },
+    
+    "texts":
+    {
+		"mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : 5,
+            "posY" : -10,
+            "color" : 6908265,
+            "alignment" : "bottom_left"
+        },
+		"title":
+        {
+            "text" : "AWTS",
+            "posX" : -32,
+            "posY" : 10,
+            "color" : -1,
+            "alignment" : "top_right"
+        },
+		"version":
+        {
+            "text" : "1.2.1",
+            "posX" : -31,
+            "posY" : 20,
+            "color" : -1,
+            "alignment" : "top_right"
+        },
+		"update":
+        {
+            "text" : "web:https://raw.githubusercontent.com/bigrice1018/AnotherWayToStart/master/UPDATENEWS",
+            "posX" : 2,
+            "posY" : 2,
+            "color" : 6908265,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "",
+            "slideshow":
+            {
+                "images" : ["awts:bg.bmp","awts:bg1.png","awts:bg2.png"],
+                "displayDuration" : 2000,
+                "fadeDuration" : 50
+            }
+        }
+		
+		/*
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }*/
+    }
+}
